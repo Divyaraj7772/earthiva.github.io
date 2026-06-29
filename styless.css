@@ -219,3 +219,163 @@ font-size:16px;
 padding:14px 34px;
 }
 }
+/* ===== GENERAL SECTIONS ===== */
+
+section{
+padding:100px 8%;
+position:relative;
+}
+
+.section-tag{
+font-size:12px;
+letter-spacing:5px;
+color:#5E7255;
+margin-bottom:18px;
+text-transform:uppercase;
+}
+
+h2{
+font-family:'Cormorant Garamond',serif;
+font-size:48px;
+margin-bottom:20px;
+line-height:1.2;
+color:#183A25;
+}
+
+/* ===== TRUST SECTION ===== */
+
+.trust-section{
+background:#F3F0E8;
+text-align:center;
+}
+
+.section-description{
+max-width:700px;
+margin:0 auto 60px;
+font-size:16px;
+color:#4B5C4D;
+line-height:1.8;
+}
+
+.trust-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+margin-top:40px;
+}
+
+.trust-card{
+background:rgba(255,255,255,0.6);
+padding:40px 25px;
+border-radius:18px;
+backdrop-filter:blur(10px);
+border:1px solid rgba(24,58,37,.08);
+transition:.3s;
+}
+
+.trust-card:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 40px rgba(24,58,37,.1);
+}
+
+.trust-card h3{
+font-size:20px;
+margin-bottom:12px;
+color:#183A25;
+}
+
+.trust-card p{
+font-size:14px;
+color:#5E7255;
+line-height:1.6;
+}
+
+/* ===== PRODUCTS SECTION ===== */
+
+.products{
+text-align:center;
+background:#F8F6F1;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+margin-top:50px;
+}
+
+.product-card{
+background:#fff;
+border-radius:22px;
+padding:25px;
+text-align:left;
+border:1px solid rgba(24,58,37,.08);
+transition:.35s;
+box-shadow:0 10px 25px rgba(0,0,0,0.04);
+}
+
+.product-card:hover{
+transform:translateY(-10px);
+box-shadow:0 25px 50px rgba(0,0,0,0.08);
+}
+
+.product-image{
+height:220px;
+border-radius:16px;
+background:linear-gradient(135deg,#dfe8dc,#cfdac8);
+margin-bottom:20px;
+}
+
+.product-card h3{
+font-size:20px;
+margin-bottom:10px;
+color:#183A25;
+}
+
+.product-card p{
+font-size:14px;
+color:#5E7255;
+margin-bottom:18px;
+line-height:1.6;
+}
+
+.product-card a{
+text-decoration:none;
+color:#183A25;
+font-weight:600;
+font-size:14px;
+position:relative;
+}
+
+.product-card a::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-3px;
+width:0%;
+height:1px;
+background:#7B9A65;
+transition:.3s;
+}
+
+.product-card a:hover::after{
+width:100%;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:900px){
+
+.trust-grid,
+.product-grid{
+grid-template-columns:1fr;
+}
+
+h2{
+font-size:34px;
+}
+
+section{
+padding:70px 6%;
+}
+  }
