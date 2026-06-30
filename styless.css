@@ -384,3 +384,12 @@ section{
 padding:70px 6%;
 }
   }
+.products .section-tag,
+.products h2{
+    text-align: center;
+    width: 100%;
+}
+
+.product-grid{
+    justify-content: flex-start;
+}
