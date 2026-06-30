@@ -396,6 +396,11 @@ padding:70px 6%;
 }
 
 /* ===== PREMIUM CONTACT ===== */
+.contact{
+background:#183A25;
+text-align:center;
+padding:110px 8%;
+}
 
 .contact-card{
 max-width:650px;
