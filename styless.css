@@ -394,25 +394,3 @@ padding:70px 6%;
 .product-grid{
     justify-content: flex-start;
 }
-.lightbox{
-display:none;
-position:fixed;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,0.85);
-justify-content:center;
-align-items:center;
-z-index:9999;
-}
-
-.lightbox img{
-max-width:90%;
-max-height:90%;
-border-radius:16px;
-}
-
-.lightbox:target{
-display:flex;
-  }
