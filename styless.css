@@ -394,3 +394,41 @@ padding:70px 6%;
 .product-grid{
     justify-content: flex-start;
 }
+
+.contact{
+background:linear-gradient(180deg,#F8F6F1,#F3F0E8);
+text-align:center;
+}
+
+.contact-card{
+max-width:520px;
+margin:45px auto 0;
+background:rgba(255,255,255,.75);
+backdrop-filter:blur(12px);
+padding:40px;
+border-radius:28px;
+border:1px solid rgba(24,58,37,.08);
+box-shadow:0 25px 60px rgba(24,58,37,.08);
+}
+
+.contact-item{
+padding:18px 0;
+border-bottom:1px solid rgba(24,58,37,.08);
+}
+
+.contact-item:last-child{
+border-bottom:none;
+}
+
+.contact-item h3{
+font-family:'Cormorant Garamond',serif;
+font-size:28px;
+color:#183A25;
+margin-bottom:10px;
+}
+
+.contact-item p{
+font-size:17px;
+color:#5E7255;
+letter-spacing:.5px;
+}
