@@ -308,8 +308,8 @@ display:none;
 
 .product-card{
 background:#fff;
-min-width:280px;
-flex:0 0 auto;
+width:280px;
+flex-shrink:0;
 scroll-snap-align:start;
 border-radius:22px;
 padding:25px;
