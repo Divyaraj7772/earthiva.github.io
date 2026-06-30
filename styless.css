@@ -16,7 +16,7 @@ text-rendering:optimizeLegibility;
 /* NAVBAR */
 .navbar{
 position:fixed;
-top:0;
+top:40px;
 left:0;
 width:100%;
 display:flex;
