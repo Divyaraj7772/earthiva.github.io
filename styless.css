@@ -398,7 +398,16 @@ padding:70px 6%;
 /* ===== PREMIUM CONTACT ===== */
 
 .contact{
-background:linear-gradient(180deg,#183A25,#2E5A3A);
+background:linear-gradient(
+180deg,
+#F8F6F1 0%,
+#E6EFE5 30%,
+#2E5A3A 65%,
+#183A25 100%
+);
+text-align:center;
+padding:110px 8%;
+}
 text-align:center;
 padding:110px 8%;
 }
