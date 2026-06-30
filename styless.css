@@ -508,3 +508,40 @@ color:#FFFFFF;
 .contact .section-description{
 color:#F1F1F1;
 }
+.whatsapp-btn{
+position:fixed;
+right:20px;
+bottom:20px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+box-shadow:0 8px 25px rgba(0,0,0,.25);
+z-index:9999;
+transition:.3s;
+animation:wpPulse 2s infinite;
+}
+
+.whatsapp-btn:hover{
+transform:scale(1.1);
+}
+
+.whatsapp-btn img{
+width:36px;
+height:36px;
+}
+
+@keyframes wpPulse{
+0%{
+box-shadow:0 0 0 0 rgba(37,211,102,.6);
+}
+70%{
+box-shadow:0 0 0 15px rgba(37,211,102,0);
+}
+100%{
+box-shadow:0 0 0 0 rgba(37,211,102,0);
+}
+}
