@@ -305,9 +305,11 @@ padding-bottom:10px;
 .product-grid::-webkit-scrollbar{
 display:none;
 }
+
 .product-card{
 background:#fff;
 min-width:280px;
+flex:0 0 auto;
 scroll-snap-align:start;
 border-radius:22px;
 padding:25px;
