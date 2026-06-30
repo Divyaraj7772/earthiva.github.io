@@ -464,6 +464,10 @@ font-size:16px;
 
   }
 .top-marquee{
+position:fixed;
+top:38px;
+left:0;
+width:100%;
 background:#183A25;
 color:#fff;
 overflow:hidden;
@@ -472,8 +476,8 @@ padding:10px 0;
 font-size:14px;
 font-weight:500;
 letter-spacing:2px;
+z-index:1001;
 }
-
 .marquee-content{
 display:inline-block;
 padding-left:100%;
