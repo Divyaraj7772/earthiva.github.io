@@ -397,10 +397,15 @@ padding:70px 6%;
 
 /* ===== PREMIUM CONTACT ===== */
 
-.contact{
-background:linear-gradient(180deg,#183A25,#2E5A3A);
-text-align:center;
-padding:110px 8%;
+.contact-card{
+max-width:650px;
+margin:40px auto 0;
+padding:50px 40px;
+background:rgba(255,255,255,.82);
+backdrop-filter:blur(18px);
+border-radius:30px;
+border:1px solid rgba(24,58,37,.08);
+box-shadow:0 25px 60px rgba(24,58,37,.12);
 }
 
 .contact-card{
