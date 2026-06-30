@@ -99,7 +99,7 @@ width:100%;
 /* HERO */
 .hero{
 min-height:70vh;
-padding:140px 20px 60px;
+padding:190px 20px 60px;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -465,7 +465,7 @@ font-size:16px;
   }
 .top-marquee{
 position:fixed;
-top:38px;
+top:0;
 left:0;
 width:100%;
 background:#183A25;
