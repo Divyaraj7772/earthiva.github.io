@@ -305,14 +305,6 @@ padding-bottom:10px;
 .product-grid::-webkit-scrollbar{
 display:none;
 }
-
-.product-grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:30px;
-margin-top:50px;
-}
-
 .product-card{
 background:#fff;
 min-width:280px;
