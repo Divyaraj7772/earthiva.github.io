@@ -527,3 +527,41 @@ transform:scale(1.05);
 width:32px;
 height:32px;
 }
+/* ===== MOBILE MENU ===== */
+
+.menu-btn{
+display:none;
+font-size:32px;
+cursor:pointer;
+color:#183A25;
+}
+
+@media (max-width:900px){
+
+.menu-btn{
+display:block;
+}
+
+nav{
+display:none;
+position:absolute;
+top:100%;
+left:0;
+width:100%;
+background:#F8F6F1;
+padding:20px 0;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+nav.active{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:20px;
+}
+
+nav a{
+font-size:18px;
+}
+
+}
