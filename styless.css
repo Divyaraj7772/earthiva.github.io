@@ -41,8 +41,19 @@ height:1px;
 background:linear-gradient(to right,transparent,#183A25,transparent);
 opacity:.08;
 }
-
 .logo{
+display:flex;
+align-items:center;
+gap:14px;
+}
+
+.logo img{
+width:52px;
+height:52px;
+object-fit:contain;
+}
+
+.logo-text{
 font-family:'Cormorant Garamond',serif;
 font-size:38px;
 font-weight:700;
@@ -51,7 +62,7 @@ color:#183A25;
 line-height:1;
 }
 
-.logo span{
+.logo-text span{
 display:block;
 font-family:'Inter',sans-serif;
 font-size:11px;
@@ -203,9 +214,19 @@ nav{
 display:none;
 }
 
-.logo{
+.logo img{
+width:42px;
+height:42px;
+}
+
+.logo-text{
 font-size:28px;
 letter-spacing:3px;
+}
+
+.logo-text span{
+font-size:9px;
+letter-spacing:4px;
 }
 
 .hero h1{
