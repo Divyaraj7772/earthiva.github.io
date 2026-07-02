@@ -587,8 +587,9 @@ font-size:18px;
 
 }
 .call-btn{
-text-decoration:none;
 color:#183A25;
+text-decoration:none;
+font-size:18px;
 font-weight:600;
 transition:.3s;
 }
