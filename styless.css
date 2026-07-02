@@ -587,13 +587,20 @@ font-size:18px;
 
 }
 .call-btn{
-color:#183A25;
+color:#5E7255;
 text-decoration:none;
 font-size:18px;
-font-weight:600;
-transition:.3s;
+font-weight:500;
+}
+
+.call-btn:visited{
+color:#5E7255;
 }
 
 .call-btn:hover{
-color:#2E5A3A;
+color:#183A25;
+}
+
+.call-btn:active{
+color:#183A25;
 }
