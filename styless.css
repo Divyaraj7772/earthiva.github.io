@@ -109,8 +109,28 @@ width:100%;
 
 /* HERO */
 .hero{
-    min-height:100vh;
-    background:url("banner.png") center center/cover no-repeat;
+    width:100%;
+    height:55vh;
+    min-height:280px;
+    max-height:500px;
+
+    background-image:url("banner.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+}
+
+@media (max-width:900px){
+
+.hero{
+    height:38vh;
+    min-height:220px;
+    max-height:320px;
+
+    background-position:center center;
+    background-size:cover;
+}
+
 }
 
 /* soft vignette overlay for luxury feel */
