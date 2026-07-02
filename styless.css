@@ -604,3 +604,54 @@ color:#183A25;
 .call-btn:active{
 color:#183A25;
 }
+/* ===== OUR STORY ===== */
+
+.story{
+padding:100px 8%;
+}
+
+.story-content{
+display:flex;
+align-items:center;
+gap:60px;
+margin-top:50px;
+}
+
+.story-image{
+flex:1;
+}
+
+.story-image img{
+width:100%;
+border-radius:24px;
+display:block;
+box-shadow:0 20px 50px rgba(0,0,0,.08);
+}
+
+.story-text{
+flex:1;
+}
+
+.story-text p{
+font-size:17px;
+line-height:1.9;
+color:#5E7255;
+margin-bottom:20px;
+}
+
+@media(max-width:900px){
+
+.story-content{
+flex-direction:column;
+}
+
+.story h2,
+.story .section-tag{
+text-align:center;
+}
+
+.story-text{
+text-align:center;
+}
+
+}
