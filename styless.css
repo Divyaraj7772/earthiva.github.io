@@ -109,23 +109,8 @@ width:100%;
 
 /* HERO */
 .hero{
-min-height:100vh;
-padding:190px 20px 60px;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:0 20px;
-position:relative;
-background:
-linear-gradient(rgba(248,246,241,.65),rgba(248,246,241,.88)),
-url("banner.jpg");
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-justify-content:flex-start;
-padding:0 8%;
+    min-height:100vh;
+    background:url("banner.jpg") center center/cover no-repeat;
 }
 
 /* soft vignette overlay for luxury feel */
