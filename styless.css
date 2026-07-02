@@ -110,7 +110,7 @@ width:100%;
 /* HERO */
 .hero{
     min-height:100vh;
-    background:url("banner.jpg") center center/cover no-repeat;
+    background:url("banner.png") center center/cover no-repeat;
 }
 
 /* soft vignette overlay for luxury feel */
