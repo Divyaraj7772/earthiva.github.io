@@ -586,3 +586,13 @@ font-size:18px;
 }
 
 }
+.call-btn{
+text-decoration:none;
+color:#183A25;
+font-weight:600;
+transition:.3s;
+}
+
+.call-btn:hover{
+color:#2E5A3A;
+}
