@@ -709,3 +709,47 @@ text-align:center;
 }
 
 }
+/* ===== BRAND VALUES ===== */
+
+.brand-values{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    padding:30px 8% 80px;
+}
+
+.value-card{
+    background:#fff;
+    border-radius:22px;
+    padding:35px 25px;
+    text-align:center;
+    border:1px solid rgba(24,58,37,.08);
+    box-shadow:0 12px 30px rgba(0,0,0,.05);
+    transition:.35s;
+}
+
+.value-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 22px 45px rgba(24,58,37,.12);
+}
+
+.value-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+    color:#183A25;
+}
+
+.value-card p{
+    font-size:15px;
+    line-height:1.7;
+    color:#5E7255;
+}
+
+@media(max-width:900px){
+
+.brand-values{
+    grid-template-columns:1fr;
+    padding:20px 6% 60px;
+}
+
+}
