@@ -816,3 +816,55 @@ text-align:center;
 }
 
 }
+/* ===== VIDEO HERO ===== */
+
+.video-hero{
+    position:relative;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    margin-top:40px;
+}
+
+.hero-video{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* Navbar transparent on video */
+.video-hero + .brand-values{
+    margin-top:0;
+}
+
+body:has(.video-hero) .navbar{
+    background:transparent;
+    backdrop-filter:none;
+    border-bottom:none;
+    box-shadow:none;
+}
+
+body:has(.video-hero) .navbar::after{
+    display:none;
+}
+
+body:has(.video-hero) .logo-text,
+body:has(.video-hero) nav a,
+body:has(.video-hero) .menu-btn{
+    color:#ffffff;
+}
+
+body:has(.video-hero) .logo-text span{
+    color:rgba(255,255,255,.85);
+}
+
+@media(max-width:900px){
+
+.video-hero{
+    height:75vh;
+}
+
+}
