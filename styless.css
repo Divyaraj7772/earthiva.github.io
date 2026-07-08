@@ -15,7 +15,7 @@ text-rendering:optimizeLegibility;
 
 /* NAVBAR */
 .navbar{
-position:fixed;
+position:absolute;
 top:40px;
 left:0;
 width:100%;
@@ -23,11 +23,9 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:22px 8%;
-background:rgba(248,246,241,.75);
-backdrop-filter:blur(18px);
-z-index:999;
-border-bottom:1px solid rgba(24,58,37,.08);
-transition:.3s;
+background:transparent;
+backdrop-filter:none;
+border-bottom:none;
 }
 
 /* subtle shadow on scroll feel */
@@ -823,7 +821,7 @@ text-align:center;
     width:100%;
     height:100vh;
     overflow:hidden;
-    margin-top:40px;
+    margin-top:0;
 }
 
 .hero-video{
@@ -838,27 +836,6 @@ text-align:center;
 /* Navbar transparent on video */
 .video-hero + .brand-values{
     margin-top:0;
-}
-
-body:has(.video-hero) .navbar{
-    background:transparent;
-    backdrop-filter:none;
-    border-bottom:none;
-    box-shadow:none;
-}
-
-body:has(.video-hero) .navbar::after{
-    display:none;
-}
-
-body:has(.video-hero) .logo-text,
-body:has(.video-hero) nav a,
-body:has(.video-hero) .menu-btn{
-    color:#ffffff;
-}
-
-body:has(.video-hero) .logo-text span{
-    color:rgba(255,255,255,.85);
 }
 
 @media(max-width:900px){
