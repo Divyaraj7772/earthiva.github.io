@@ -26,7 +26,10 @@ padding:22px 8%;
 background:transparent;
 backdrop-filter:none;
 border-bottom:none;
+z-index:9999;
 }
+
+
 
 /* subtle shadow on scroll feel */
 .navbar::after{
@@ -631,6 +634,11 @@ font-size:32px;
 cursor:pointer;
 color:#fff;
 }
+.menu-btn{
+z-index:99999;
+position:relative;
+}
+
 
 @media (max-width:900px){
 
