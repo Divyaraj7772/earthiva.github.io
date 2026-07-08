@@ -56,7 +56,7 @@ font-family:'Cormorant Garamond',serif;
 font-size:38px;
 font-weight:700;
 letter-spacing:5px;
-color:#183A25;
+color:#fff;
 line-height:1;
 }
 
@@ -67,7 +67,7 @@ font-size:11px;
 letter-spacing:6px;
 margin-top:4px;
 font-weight:500;
-color:#5E7255;
+color:rgba(255,255,255,.85);
 }
 
 nav{
@@ -77,7 +77,7 @@ gap:34px;
 
 nav a{
 text-decoration:none;
-color:#183A25;
+color:#fff;
 font-weight:500;
 font-size:15px;
 position:relative;
@@ -629,7 +629,7 @@ height:32px;
 display:none;
 font-size:32px;
 cursor:pointer;
-color:#183A25;
+color:#fff;
 }
 
 @media (max-width:900px){
