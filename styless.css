@@ -33,15 +33,9 @@ z-index:9999;
 
 /* subtle shadow on scroll feel */
 .navbar::after{
-content:"";
-position:absolute;
-bottom:-1px;
-left:0;
-width:100%;
-height:1px;
-background:linear-gradient(to right,transparent,#183A25,transparent);
-opacity:.08;
+display:none;
 }
+
 .logo{
 display:flex;
 align-items:center;
