@@ -363,21 +363,23 @@ h2{
 }
 
 .product-btn{
-    display:block;
-    width:100%;
-    text-align:center;
-    text-decoration:none;
-    background:#183A25;
-    color:#fff;
-    padding:14px;
-    border-radius:999px;
-    font-weight:600;
-    transition:.3s;
+display:block;
+width:100%;
+text-align:center;
+text-decoration:none;
+background:#183A25;
+color:#fff;
+padding:14px 18px;
+border-radius:999px;
+font-weight:600;
+transition:all .35s ease;
+box-shadow:0 8px 20px rgba(24,58,37,.18);
 }
 
 .product-btn:hover{
-    background:#2E5A3A;
-    transform:translateY(-2px);
+background:#2E5A3A;
+transform:translateY(-3px) scale(1.03);
+box-shadow:0 16px 35px rgba(24,58,37,.28);
 }
 
 @media(max-width:900px){
