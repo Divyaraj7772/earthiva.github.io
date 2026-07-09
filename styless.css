@@ -286,12 +286,14 @@ h2{
     scroll-snap-align:start;
     border:1px solid rgba(24,58,37,.08);
     box-shadow:0 12px 30px rgba(0,0,0,.06);
-    transition:.35s;
+    transition:all .4s ease;
+    overflow:hidden;
 }
 
 .product-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 22px 45px rgba(24,58,37,.12);
+    transform:translateY(-10px);
+    box-shadow:0 28px 60px rgba(24,58,37,.18);
+    border-color:rgba(123,154,101,.35);
 }
 
 .product-image{
@@ -301,6 +303,7 @@ h2{
     border-radius:18px;
     overflow:hidden;
     margin-bottom:20px;
+    cursor:pointer;
 }
 
 .product-image img{
@@ -311,7 +314,7 @@ h2{
 }
 
 .product-card:hover .product-image img{
-    transform:scale(1.05);
+    transform:scale(1.08) rotate(1deg);
 }
 
 .product-badge{
